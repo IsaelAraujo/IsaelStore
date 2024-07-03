@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freetv.com</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            padding: 0px;
+            margin: 0px;
+        }
+        header {
+            background-color: #000000;
+            color: #ff0000;
+            border: 4px solid #ff0000;
+            border-radius: 0px 0px 20px 20px;
+            text-align: center;
+            padding: 3px 0;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px 5px 20px 5px;
+            color: #ff0000;
+            background-color: #333;
+        }
+
+        .channel {
+            width: 300px;
+            background-color: #000000;
+            border: 4px solid #ff0000;
+            border-radius: 20px;
+            margin: 10px;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        img {
+            max-width: 300%;
+        }
+
+        footer {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+            padding: 3px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FreeTV oficial</h1>
+    </header>
+    <main>
+        <section class="channel">
+            <img src="imagens/img.png" alt="Foto FreeTV" onclick="openWebsite('https://firebasestorage.googleapis.com/v0/b/isael-store.appspot.com/o/APK%2FFreeTV.xapk?alt=media&token=248b0298-ecb3-4208-a046-61693a9343f4')">
+            <h2>FreeTV</h2>
+            <p>esse aplicativo e para tv box, notebook, computador etc.</p>
+        </section>
+        <section class="channel">
+            <img src="imagens/img.png" alt="Foto FreeTV mobile" onclick="openWebsite('https://firebasestorage.googleapis.com/v0/b/isael-store.appspot.com/o/APK%2FFreeTV%20mobile.xapk?alt=media&token=8d7c8652-86fa-4ea0-a3a0-75618b674b71')">
+            <h2>FreeTV mobile</h2>
+            <p>esse aplicativo e para Android, Ios, etc.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Isael Studio</p>
+    </footer>
+  <script src="FreeTV.js"></script>
+  </body>
+  </html>
